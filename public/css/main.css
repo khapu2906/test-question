@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
+
+body {
+  margin: 0px;
+  background-color: #6a7474;
+}
+
+header {
+  display: flex;
+  min-height: 3.5em;;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  background: #fcffff00;
+  color: black;
+  font-family: 'Baloo Bhaina';
+
+}
+header > .logo {
+  width: 10em;
+  padding-left: 20px;
+}
+header > .logo > img{
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul > li {
+  display: block;
+  margin-left: 1.5em;
+}
+
+li > a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding: 0px;
+  width: 100%;
+  background-color: #6a7474;
+  align-items: center;
+}
+
+.content > .banner-header {
+  width: 100%;
+}
+
+.content > .banner-header > img {
+  width: 100%;
+}
+
+.content > .description {
+    color: #edd4be;
+    top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.content > .description > p {
+  font-size: 24px;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+}
+
+.content > .portfolio {
+  background: #edd4be;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.content > .portfolio > .portfolio-header {
+  position: absolute;
+  top: 0px;
+}
+
+.content > .portfolio > img {
+  width: 49%;
+}
+
+.content > .portfolio > #banner1 {
+  padding-top: 45px;
+}
+
+.content > .portfolio > #banner2 {
+  padding-bottom: 45px;
+}
+
+.about {
+  color: #edd4be;
+  top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  text-align: center;
+  min-height: 10em;
+}
+
+.content > .about > h1 {
+  margin-top: 0px;
+  align-items: center;
+  font-family: 'Baloo Bhaina';
+  padding-top: 37px;
+}
+
+.content > .text-content {
+  background: #edd4be;
+}
+
+.content > .text-content > p {
+  margin-top: 0px;
+  font-size: 32px;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+}
+
+.content > .contact {
+  justify-content: space-between;
+  min-height: 35em;
+
+}
+
+.content > .contact > form {
+  background: #edd4be7a;
+  min-height: 35em;
+
+}
+
+.content > .contact > form > h1 {
+  margin-top: 0px;
+  align-items: center;
+  font-family: 'Baloo Bhaina';
+  padding-top: 37px;
+  margin-left: 2.5em;
+}
+
+.form-group {
+  flex-direction: column;
+  margin-top: 1.5em;
+  width: 100%;
+  margin-left: 5em;
+}
+
+.form-control {
+  height: 2em;
+  width: 30em;
+}
+
+.mb-5 {
+  margin-bottom: 5em;
+}
+
+footer {
+  background-color: #6a7474;
+  height: 100%;
+  font-family: 'Baloo Bhaina';
+  z-index: 2;
+  color: #edd4be;
+}
+
+.info {
+
+}
+
+.info > .info-name {
+  text-align: center;
+}

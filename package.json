@@ -1,0 +1,20 @@
+{
+  "name": "test-question",
+  "version": "0.0.1",
+  "description": "As template",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "test.js"
+  },
+  "author": "khapu <daikhanh9260@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http-status-codes": "^2.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
